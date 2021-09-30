@@ -52,7 +52,7 @@ library(igraph)
 authors_igraph <- graph_from_data_frame(d = edges, vertices = nodes, directed = TRUE)
 authors_igraph
 #
-plot(authors_igraph)
+#plot(authors_igraph)
 # Too many
 #-------
 nodes_lim <- author_pairs %>% ungroup %>%
